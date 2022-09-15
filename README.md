@@ -12,3 +12,19 @@ the supervisor will then create the S servers (which will have to be separate pr
 The C clients, on the other hand, are launched independently, each at different times. 
 
 The various parameters are modifiable in the Makefile script.
+
+All the code is POSIX compliance.
+
+## Requirements
+To run the code, you have to install:
+<ul>
+  <li>gcc</li>
+  <li>make</li>
+</ul>
+
+## Commands
+
+In the file directory, run:  <br> <br>
+``` make ```  - to compile all the files <br> <br>
+``` make test ```  - to test the programm on your pc <br> <br>
+``` make clean ```  - to remove compiled and temporary files from the directory <br> <br>
